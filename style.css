@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#image {
+    width: 15%;
+    height: 15%;
+    transform: rotate(90deg);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#t-letters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 5px;
+}
+
+#p-letters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
